@@ -52,7 +52,6 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "coverage": "vitest run --coverage",
-    "postinstall": "husky install",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
     "lint": "npx eslint . --ext .ts,.tsx,.js,.jsx --cache --fix",
