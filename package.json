@@ -53,7 +53,7 @@
     "test:watch": "vitest",
     "coverage": "vitest run --coverage",
     "prepack": "pinst --disable",
-    "prepare": "tsc && rollup -c rollup.config.ts --configPlugin swc3",
+    "prepare": "",
     "postpack": "pinst --enable",
     "lint": "npx eslint . --ext .ts,.tsx,.js,.jsx --cache --fix",
     "lint:ci": "npx eslint . --ext .ts,.tsx,.js,.jsx --cache --max-warnings 0",
